@@ -1,5 +1,5 @@
-# Molecular Quantum Transformer
-This repository is the official PyTorch implementation of the paper [Molecular Quantum Transformer](https://arxiv.org/abs/2503.21686).
+# Molecular Quantum Transformer (MQT)
+This repository is the official PyTorch implementation of the paper ["Molecular Quantum Transformer"](https://arxiv.org/abs/2503.21686).
 
 ## Installation
 Download this reposistry [MQT](https://github.com/FujitsuResearch/molecular_quantum_transformer).
@@ -29,3 +29,4 @@ If you want to fine-tune the model without pre-training (i.e. learn from scratch
 ## License
 
 This project is licensed under the terms of the BSD 3-Clause Clear License. Copyright 2025 Fujitsu Limited. All Rights Reserved.
+
