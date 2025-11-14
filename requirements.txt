@@ -1,0 +1,13 @@
+tensorboard
+torch==2.4.1+cu124
+torchaudio==2.4.1+cu124
+torchvision==0.19.1+cu124
+pennylane
+pyscf
+opt_einsum
+torchquantum
+cuquantum-python
+qiskit_ibm_runtime==0.20.0
+qiskit-aer==0.13.3
+tqdm
+
