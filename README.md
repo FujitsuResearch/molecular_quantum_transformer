@@ -5,6 +5,7 @@ This repository is the official PyTorch implementation of the paper ["Molecular 
 Download this reposistry [MQT](https://github.com/FujitsuResearch/molecular_quantum_transformer).
 
 Install and setup CUDA Toolkit 12.4 Update 1 and Python 3.12.4.
+
 Install required packages with utilizing 'requirements.txt'.
 
 ## Estimation of the potential energy curves with plain training
@@ -24,9 +25,11 @@ python3 train_chem_diff_molecule.py
 python3 tune_chem_diff_molecule.py 
 ```
 When you train the model with classical Transformers, add the argument '--cml' to these commands.
+
 If you want to fine-tune the model without pre-training (i.e. learn from scratch), run the command with the argument '--scratch'.
 
 ## License
 
 This project is licensed under the terms of the BSD 3-Clause Clear License. Copyright 2025 Fujitsu Limited. All Rights Reserved.
+
 
