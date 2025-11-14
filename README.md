@@ -10,7 +10,6 @@ Install required packages with utilizing 'requirements.txt'.
 ## Estimation of the potential energy curves with plain training
 To select a target molecule, set the index number of the molecule list in the source code 'train_chem_diff_bond.py'. 
 ```shell
-cd source
 python3 train_chem_diff_bond.py 
 ```
 When you train the model with classical Transformers, add the argument '--cml' to this command.
@@ -28,4 +27,5 @@ When you train the model with classical Transformers, add the argument '--cml' t
 If you want to fine-tune the model without pre-training (i.e. learn from scratch), run the command with the argument '--scratch'.
 
 ## License
+
 This project is licensed under the terms of the BSD 3-Clause Clear License. Copyright 2025 Fujitsu Limited. All Rights Reserved.
